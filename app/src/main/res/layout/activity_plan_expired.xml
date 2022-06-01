@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.ChooseYourPlans">
+    <include layout="@layout/toolbar_step_one">
+
+    </include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:text="Your plan has expired, please select a new plan that suits you."
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:layout_width="351dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="10dp"
+                android:text="Downgrade or uprade at any time. "
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                >
+
+            </TextView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="50dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="33dp"
+                        android:id="@+id/radiobuttonforbasic">
+
+                    </RadioButton>
+                    <TextView
+                        android:layout_width="241dp"
+                        android:layout_height="49dp"
+                        android:text="Basic"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="92dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="₹ 349/month">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="289dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/basicplanimage">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="50dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="33dp"
+                        android:id="@+id/radiobuttonforstandard">
+
+                    </RadioButton>
+                    <TextView
+                        android:layout_width="241dp"
+                        android:layout_height="49dp"
+                        android:text="Standard"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="92dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="₹ 649/month">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="289dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/standardplanimage">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="15dp"
+
+                app:cardElevation="50dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="33dp"
+                        android:id="@+id/radiobuttonforpremium">
+
+                    </RadioButton>
+                    <TextView
+                        android:layout_width="241dp"
+                        android:layout_height="49dp"
+                        android:text="Premium"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="92dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="40dp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="₹ 799/month">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="289dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="60dp"
+                    android:src="@drawable/premiumplanimage">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/colorAccent"
+                android:text="PAY"
+                android:textColor="@color/White"
+                android:textSize="20dp"
+                android:layout_marginLeft="35dp"
+                android:id="@+id/paybutton"
+                android:layout_marginBottom="10dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".Activites.SignInActivity">
+    <include layout="@layout/toolbarsignin"></include>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emaillayout"
+            android:layout_width="0dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="#2B2B2B"
+            android:padding="1dp"
+            android:textColorHint="#BDB5B5"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.346">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/emaileditText"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:hint="EMAIL"
+                android:background="#2B2B2B"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15dp">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordlayout"
+            android:layout_width="0dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="#2B2B2B"
+            android:padding="1dp"
+            app:endIconMode="password_toggle"
+            android:layout_marginTop="150dp"
+            android:textColorHint="#BDB5B5"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.346">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/password"
+
+                android:inputType="textPassword"
+                android:hint="PASSWORD"
+                android:background="#2B2B2B"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="15dp">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:id="@+id/signin"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/passwordlayout"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/passwordlayout"
+            app:layout_constraintTop_toTopOf="@+id/passwordlayout"
+            android:layout_marginTop="75dp">
+
+
+        </Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Forgot password ?"
+            android:textColor="@color/White"
+            android:textSize="18dp"
+            android:id="@+id/forgotpassword"
+            android:layout_margin="12dp"
+            app:layout_constraintEnd_toEndOf="@id/passwordlayout"
+            app:layout_constraintStart_toStartOf="@id/passwordlayout"
+            app:layout_constraintTop_toBottomOf="@id/signin"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="New to Netflix? sign up now."
+            android:textColor="@color/White"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/signup"
+            android:layout_margin="12dp"
+            app:layout_constraintEnd_toEndOf="@id/forgotpassword"
+            app:layout_constraintStart_toStartOf="@id/forgotpassword"
+            app:layout_constraintTop_toBottomOf="@id/forgotpassword"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <ProgressBar
+            android:id="@+id/pbar"
+            android:layout_width="51dp"
+            android:layout_marginBottom="92dp"
+            android:theme="@style/AppTheme.Custom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_height="76dp">
+
+        </ProgressBar>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

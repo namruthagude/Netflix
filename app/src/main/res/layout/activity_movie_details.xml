@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".MainScreens.MovieDetails">
+   <ImageView
+       android:layout_width="410dp"
+       android:layout_height="208dp"
+       android:id="@+id/imageDetails"
+       tools:ignore="MissingConstraints"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+        android:layout_width="373dp"
+        android:layout_height="50dp"
+        android:id="@+id/movieName"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="240dp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Movie Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        tools:ignore="MissingConstraints"
+        />
+    <Button
+        android:id="@+id/playbutton"
+        android:layout_width="386dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/White"
+        android:text="PLAY"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_baseline_play_arrow_24"
+        android:padding="0dp"
+        android:textAlignment="viewStart"
+        android:paddingStart="150dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

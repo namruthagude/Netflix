@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.PaymentGateway">
+    <include layout="@layout/toolbar_payment_gateway"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STEP 3 OF 3"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:id="@+id/step3of3payment"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Set up your Credit or Debit card"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="22dp"
+                android:gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+
+                <ImageView
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/visacard"
+                    android:layout_gravity="center"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+
+                <ImageView
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mastercard"
+                    android:layout_gravity="center"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+
+                <ImageView
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/americanexpress"
+                    android:layout_gravity="center"/>
+                <Space
+                    android:layout_width="5dp"
+                    android:layout_height="5dp"/>
+                <ImageView
+                    android:layout_width="44dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/lastcard"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="310dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_stroke"
+            android:padding="1dp"
+            android:textColorHint="@color/colorPrimary"
+            app:hintTextColor="@color/colorPrimary"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/firstnameedittext"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@color/White"
+                android:hint="FIRST NAME"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:padding="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="15dp"
+                android:layout_width="335dp">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="310dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_stroke"
+            android:padding="1dp"
+            android:textColorHint="@color/colorPrimary"
+            app:hintTextColor="@color/colorPrimary"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/lastnameeditext"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@color/White"
+                android:hint="LAST NAME"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:padding="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="15dp"
+                android:layout_width="335dp">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="310dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_stroke"
+            android:padding="1dp"
+            android:textColorHint="@color/colorPrimary"
+            app:hintTextColor="@color/colorPrimary"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/contactnumedittext"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="@color/White"
+                android:hint="CONTACT NUMBER"
+                android:padding="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="15dp"
+                android:layout_width="335dp"
+                android:inputType="number">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+        <LinearLayout
+            android:layout_width="310dp"
+            android:layout_height="85dp"
+            android:background="@drawable/layout_border"
+            android:layout_marginLeft="22dp"
+            android:orientation="horizontal"
+            android:id="@+id/hori">
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/ver">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="₹ 349/month"
+                    android:textColor="@color/colorPrimary"
+                    android:id="@+id/costtoset"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/plantoset"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:text="Basic"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="5dp"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="55dp"
+                android:text="CHANGE"
+                android:textColor="#112595"
+                android:textSize="22dp"
+                android:id="@+id/change"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="5dp"/>
+        <TextView
+            android:id="@+id/toputurl"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12dp"
+            android:layout_marginLeft="22dp"
+            android:text="By checking the checkbox below, you agree to our Terms of Use, Privacy Statement, and that you are over 18. Netflix will automatically continue your membership and charge the monthly membership fee to your payment method until you cancel. You may cancel at any time to avoid future charges.
+"/>
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="5dp"/>
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="143dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="22dp"
+            android:text="I agree"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimary"
+            android:id="@+id/iagree"/>
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"/>
+        <Button
+            android:layout_width="275dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="32dp"
+            android:text="START MEMBERSHIP"
+            android:textColor="@color/White"
+            android:backgroundTint="@color/colorAccent"
+            android:textSize="20dp"
+            android:id="@+id/startmemebershipbutton"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

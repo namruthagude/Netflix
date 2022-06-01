@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainScreens.Settings">
+    <include layout="@layout/toolbar_settings"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/White"
+            android:textSize="25dp"
+            android:text="We will send you an email with instructions on how to reset your password"/>
+        <TextView
+            android:id="@+id/emailSettings"
+            android:layout_width="300dp"
+            android:layout_height="62dp"
+            android:text="Email"
+            android:background="@drawable/reset_textview"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/planSettings"
+            android:layout_width="300dp"
+            android:layout_height="62dp"
+            android:text="Plan"
+            android:background="@drawable/reset_textview"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:id="@+id/dateSettings"
+            android:layout_width="300dp"
+            android:layout_height="62dp"
+            android:text="Date"
+            android:background="@drawable/reset_textview"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordlayoutSettingd"
+            android:layout_width="300dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/reset_textview"
+            android:padding="1dp"
+            android:textColorHint="@color/colorPrimary"
+            app:hintTextColor="@color/colorPrimary"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="20dp"
+            app:boxCornerRadiusTopStart="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.346"
+            app:endIconMode="password_toggle"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/currentPasswordSettings"
+                android:inputType="textPassword"
+                android:hint="CURRENT PASSWORD"
+                android:background="@color/White"
+                android:layout_marginBottom="5dp"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="15dp">
+
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/resetpasswordbutton"
+            android:layout_width="300dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/White"
+            android:text="Change password"
+            android:gravity="center"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/signoutSettingsbutton"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/White"
+            android:text="Sign out"
+            android:gravity="center"
+            android:textSize="20dp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/navigation"
+            app:labelVisibilityMode="labeled"
+            app:itemTextColor="@drawable/item_selected"
+            app:itemIconTint="@drawable/item_selected"
+            app:menu="@menu/bottom_navigator"
+            android:id="@+id/bottom_navigation"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

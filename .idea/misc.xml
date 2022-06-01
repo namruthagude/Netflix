@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Netflix/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/activedots.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/button_stroke.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/ic_baseline_chevron_right_24.xml" value="0.1" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/ic_baseline_radio_button_unchecked_24.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/inactivedots.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/item_selected.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/layout_border.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/netflixlogo.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/playbuttonstroke.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/reset_textview.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/resetbutton.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/drawable/toolbarlogo.xml" value="0.1945" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_choose_your_plans.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_finish_up.xml" value="0.15" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_main_screen.xml" value="0.1" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_movie_details.xml" value="0.1" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_movies.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_payment_gateway.xml" value="0.2" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_plan_expired.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_search.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_settings.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_step_one.xml" value="0.18" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_step_three.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_step_two.xml" value="0.1" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_swipe_screen.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_tv_series.xml" value="0.1" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/activity_video_player.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/button_stroke.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/category_row_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/custom_layout.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/layout_border.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/lock_icon.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/mainrecyclerlayout.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/searchrecyclerlayout.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/toolbar_main_screen.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/toolbar_movies.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/toolbar_payment_gateway.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/toolbar_settings.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/toolbar_step_one.xml" value="0.22" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/toolbar_step_three.xml" value="0.21" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/toolbar_tv_series.xml" value="0.17074275362318841" />
+        <entry key="..\:/Netflix/app/src/main/res/layout/toolbarsignin.xml" value="0.25" />
+        <entry key="..\:/Netflix/app/src/main/res/menu/bottom_navigator.xml" value="0.2" />
+        <entry key="..\:/Netflix/app/src/main/res/menu/searchmenu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

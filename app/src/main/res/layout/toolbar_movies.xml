@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/colorPrimary"
+        android:theme="@style/Theme.AppCompat.Light.Dialog"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_marginStart="0dp"
+            >
+
+            <ImageView
+                android:id="@+id/netflixlogo"
+                android:layout_width="125dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/logo">
+
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/moviestool"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/netflixlogo"
+                android:text="Movies"
+                android:textColor="@color/White"
+                android:textSize="20dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+</merge>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.StepThree">
+    <include layout="@layout/toolbar_step_three"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_editor_absoluteY="70dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="12dp">
+            <include layout="@layout/lock_icon"
+                android:layout_height="125dp"
+                android:layout_width="202dp"
+                android:layout_marginLeft="50dp"/>
+
+
+            <TextView
+                android:id="@+id/step3of3"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="STEP 3 OF 3"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="190dp"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="Set Up your payment"
+                android:layout_marginStart="60dp"
+
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="240dp"
+                android:textSize="25dp"
+                android:textColor="@color/Greyish"
+                android:text="Your membership starts as set up payment."
+                android:textAlignment="center"
+                android:layout_marginStart="45dp"
+
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="320dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:text="No commitments cancel online at any time."
+                android:layout_marginStart="45dp"
+                >
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:id="@+id/paymentlinearlayout"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/layout_border"
+                android:orientation="horizontal"
+                android:layout_marginTop="390dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Credit or Debit card"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15dp">
+
+                </TextView>
+                <Space
+                    android:layout_width="2dp"
+                    android:layout_height="2dp"/>
+
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/visacard"/>
+                <Space
+                    android:layout_width="2dp"
+                    android:layout_height="2dp"/>
+
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/americanexpress"/>
+                <Space
+                    android:layout_width="2dp"
+                    android:layout_height="2dp"/>
+
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/lastcard"/>
+                <Space
+                    android:layout_width="2dp"
+                    android:layout_height="2dp"/>
+
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/mastercard"/>
+                <Space
+                    android:layout_width="2dp"
+                    android:layout_height="2dp"/>
+                <ImageView
+                    android:layout_width="34dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/ic_baseline_chevron_right_24"/>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activites.FinishUpActivity">
+
+    <include layout="@layout/toolbar_step_one"/>
+    <LinearLayout
+        android:layout_width="434dp"
+        android:layout_height="460dp"
+        android:layout_marginTop="110dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:src="@drawable/ic_baseline_check_circle_outline_24">
+
+        </ImageView>
+        <TextView
+            android:layout_width="396dp"
+            android:layout_height="40dp"
+            android:id="@+id/step1of3finish"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="STEP 1 OF 3"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Finish setting up your account"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="25dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:gravity="center"
+            android:text="Netflix is personialised for you create a password to watch netflix on any device at any time."
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp">
+
+        </TextView>
+        <Button
+            android:layout_width="291dp"
+            android:id="@+id/continuebuttonFinish"
+            android:layout_height="58dp"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="CONTINUE"
+            android:textColor="@color/White"
+            android:textSize="20dp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

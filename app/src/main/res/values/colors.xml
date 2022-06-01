@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorSecondary">#000000</color>
+    <color name="colorAccent">#DF1313</color>
+    <color name="White">#fff</color>
+    <color name="Greyish">#A89E9E</color>
+    <color name="item_selected">#ED0A0A</color>
+    <color name="item_unselected">#FFFFFF</color>
+    <color name ="navigation">#171717</color>
+</resources>
